@@ -1,0 +1,14 @@
+
+{
+    "deposito": {
+        "nome": "Salário",
+        "valor": "123",
+        "data": "2022-03-21"
+    },
+    
+    "saque": {
+        "nome": "Contas",
+        "valor": "-99",
+        "data": "2022-03-21"
+    }  
+}

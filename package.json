@@ -1,0 +1,14 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "teste de aplicação web",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Renato",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  }
+}

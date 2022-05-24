@@ -19,9 +19,9 @@ Os testes criados analisaram a adição de novas transações à plataforma (ent
 ### ⚠️ Instalação e uso do projeto
 -----------------------
 - Instale o [Node.js](https://nodejs.org/en/download/);
+- Baixe este repositório ou faça um git clone;
 - Abra o diretório do projeto e execute o comando:
-    - `npm init`
-    - `npm i cypress --save-dev` (para instalar o cypress)
+    - `npm install`
 - Para abrir a interface de execução do Cypress, execute no diretório do projeto:
     - `npx cypress open`
 

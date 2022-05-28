@@ -59,11 +59,11 @@ dev_finance/
 ## 🔍 Camadas do projeto
 -----------------------
 
- - **fixtures:** arquivos para massa de dados estática para os testes (.json);
- - **integration:** arquivos de testes separados em categorias a organização. Extensão *.spec.js;
+ - **fixtures:** arquivos para massa de dados estática para os testes (*.json);
+ - **integration:** arquivos de testes separados em categorias a organização (*.spec.js);
  - **plugins:** plugins que são utilizados na solução ficam dentro do arquivo "plugins/index.js";
  - **support:** camada com comandos Cypress customizados e sobrescritas globais:
-    - **actions:** arquivos com as páginas de funcionalidades dos testes. Extensão *.js;
+    - **actions:** arquivos com as páginas de funcionalidades dos testes (*.js);
     - Arquivo commands.js responsável de receber os comandos globais no cypress;
     - Arquivo index.js responsável de receber as importações dos comandos cypress;
     - Arquivo utils.js responsável pela formatação dos valores para execução dos testes;

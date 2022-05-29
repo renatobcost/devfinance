@@ -6,15 +6,19 @@ O objetivo deste projeto é compreender um pouco mais sobre o funcionamento do c
 
 Os testes criados analisaram a adição de novas transações à plataforma (entradas e saídas), além de validar os valores cadastrados.
 
+
 ### 💡 Conceitos abordados
 -----------------------
+
+- Comandos Each e Invoke;
 - Controle de entradas e saídas;
 - CSS Selector;
-- Submeter forms e validar modal;
-- Massa de testes estática (.json);
-- Comandos Each e Invoke;
-- PageObject;
+- Integração Contínua (ci);
 - LocalStorage;
+- Massa de testes estática (.json);
+- PageObject;
+- Submeter forms e validar modal;
+
 
 ### ⚠️ Instalação e uso do projeto
 -----------------------
@@ -31,6 +35,9 @@ Os testes criados analisaram a adição de novas transações à plataforma (ent
 
 ```
 dev_finance/
+  ├─  .github/
+  │        └── workflows/
+  │            └── ci.yml
   ├─  cypress/
   │        ├── fixtures/
   │        │   └── transacao.json       
@@ -55,10 +62,10 @@ dev_finance/
   └── README.md
 ```
 
-
 ## 🔍 Camadas do projeto
 -----------------------
 
+ - **.github:** contém arquivo para criação de pipeline de integração contínua (*.yml); 
  - **fixtures:** arquivos para massa de dados estática para os testes (*.json);
  - **integration:** arquivos de testes separados em categorias a organização (*.spec.js);
  - **plugins:** plugins que são utilizados na solução ficam dentro do arquivo "plugins/index.js";

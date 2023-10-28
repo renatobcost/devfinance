@@ -6,8 +6,6 @@ O objetivo deste projeto é compreender um pouco mais sobre o funcionamento do c
 
 Os testes criados analisaram a adição de novas transações à plataforma (entradas e saídas), além de validar os valores cadastrados. 
 
-Também foi implementada a opção de relatório contendo o dashboard com informações a respeito dos testes, tais como: tempo de execução, testes aprovados e com falhas, evidências em vídeo, perfomance, definição dos testes, etc. A execução e atualização do relatório ocorre em CI. Para consultar a página de relatório dos testes clique [aqui](https://dashboard.cypress.io/projects/sxo7b8/runs/1/overview).
-
 
 ### 💡 Conceitos abordados
 -----------------------
@@ -15,7 +13,6 @@ Também foi implementada a opção de relatório contendo o dashboard com inform
 - Comandos Each e Invoke;
 - Controle de entradas e saídas;
 - CSS Selector;
-- Integração Contínua (ci);
 - LocalStorage;
 - Massa de testes estática (.json);
 - PageObject;
